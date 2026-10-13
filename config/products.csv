@@ -1,1 +1,17 @@
-
+﻿product_id,activity,usage_type,keyword,category_id,category_status,pilot_enabled,note
+RUN_F01,러닝,functional,러닝쇼츠,50000000,provisional,yes,상위 패션의류 코드로 파일럿 검증
+RUN_F02,러닝,functional,러닝자켓,50000000,pending,yes,세부 카테고리 검증 후 수집
+RUN_L01,러닝,lifestyle,트랙자켓,50000000,provisional,yes,운동과 무관한 패션 소비도 포함될 수 있음
+RUN_L02,러닝,lifestyle,트랙팬츠,50000000,pending,yes,세부 카테고리 검증 후 수집
+PIL_F01,필라테스,functional,필라테스복,50000007,provisional,yes,상위 패션의류 코드로 파일럿 검증
+PIL_F02,필라테스,functional,필라테스레깅스,50000007,pending,yes,공용 운동복과 의미 중복 점검
+PIL_L01,필라테스,lifestyle,크롭집업,50000000,provisional,yes,일상 패션 사용을 직접 관측할 수 없음
+PIL_L02,필라테스,lifestyle,바이커쇼츠,50000000,pending,yes,패션의류 카테고리 및 소비 맥락 확인
+GYM_F01,헬스,functional,짐웨어,50000000,provisional,yes,상품 키워드 적합성 확인
+GYM_F02,헬스,functional,컴프레션웨어,50000000,pending,yes,카테고리 범위 확인
+GYM_L01,헬스,lifestyle,스웻팬츠,50000000,provisional,yes,일상 패션 상품의 대리변수
+GYM_L02,헬스,lifestyle,후드집업,50000000,pending,yes,운동 외 요인의 영향이 클 수 있음
+BAL_F01,발레,functional,레오타드,50000007,provisional,yes,체조·아동복 등 혼입 확인 필요
+BAL_F02,발레,functional,발레스커트,50000007,pending,yes,성인 취미발레와 아동 상품 구분
+BAL_L01,발레,lifestyle,랩가디건,50000000,provisional,yes,발레코어와 연관성은 가설
+BAL_L02,발레,lifestyle,레그워머,,pending,no,잡화 분류 여부 확인 필요
