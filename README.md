@@ -16,4 +16,6 @@ Python 3.11 이상에서 `python -m pip install -r requirements.txt`로 설치�
 
 ## Pages 배포
 저장소에 이 폴더 내용만 업로드하고 Settings → Pages → Deploy from a branch → main /docs를 선택한다. `.nojekyll`로 정적 파일을 제공한다. 배포 후 HTTPS 응답과 화면을 확인해야 완료다.
-현재 원격 게시 및 배포는 GitHub App 저장소 접근 설정이 필요하며 아직 완료되지 않았다.
+공개 저장소: https://github.com/108chang/hobby-fashion-trends
+Pages: https://108chang.github.io/hobby-fashion-trends/
+GitHub App 연결과 별개로 로그인된 브라우저를 통해 게시했다. 실제 데이터가 없는 소개 페이지를 제공한다.
