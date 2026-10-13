@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+data/
+outputs/
+private_data/
+dashboard/
+*.pdf
+*.zip
+.venv*/
+__pycache__/
+.idea/
+backups/
