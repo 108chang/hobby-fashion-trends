@@ -14,8 +14,10 @@ Python 3.11 이상에서 `python -m pip install -r requirements.txt`로 설치�
 ## 공개 범위
 실제 CSV·예측값·보고서 PDF·원본 대시보드는 공개되지 않는다. `docs/index.html`은 데이터가 없는 프로젝트 소개 페이지이다. 자세한 기준은 PUBLICATION_POLICY.md에 있다.
 
-## Pages 배포
-저장소에 이 폴더 내용만 업로드하고 Settings → Pages → Deploy from a branch → main /docs를 선택한다. `.nojekyll`로 정적 파일을 제공한다. 배포 후 HTTPS 응답과 화면을 확인해야 완료다.
+## Pages 배포 상태
 공개 저장소: https://github.com/108chang/hobby-fashion-trends
-Pages: https://108chang.github.io/hobby-fashion-trends/
-GitHub App 연결과 별개로 로그인된 브라우저를 통해 게시했다. 실제 데이터가 없는 소개 페이지를 제공한다.
+예정 사이트: https://108chang.github.io/hobby-fashion-trends/ (현재 404, 배포 미완료)
+
+GitHub에 코드·설정·소개 페이지를 게시했다. Pages는 GitHub Actions 배포로 설정했으며 `.github/workflows/static.yml`은 `docs` 폴더만 배포한다.
+저장소 Actions 정책은 허용 상태지만 활성화 요청에 `Unable to enable Actions for this repository.` 오류가 발생한다. 이는 코드 빌드 오류 이전의 실행 차단으로, GitHub 측 제한 사유 확인이 필요하다. 로그인하지 않은 외부 조회에서도 저장소가 404로 나타나 공개 접근은 아직 검증되지 않았다.
+GitHub App 설치 0개인 연결 문제와 Actions 실행 제한은 구분해서 확인해야 한다.
