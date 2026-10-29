@@ -47,4 +47,4 @@ python forecast_h4_h5.py
 
 실제 CSV, 주별 예측, PDF 보고서, 데이터 내장 대시보드, 전체 입력 ZIP은 게시하지 않습니다. NAVER 데이터랩/API HUB의 적용 계약과 원자료·파생 결과 재배포 허용 범위가 확인되지 않았기 때문입니다. [공개 범위 기준](PUBLICATION_POLICY.md)을 따릅니다.
 
-Pages의 과거 Actions 활성화 오류는 이번 확인에서 해소했습니다. 소개 페이지 배포 상태는 현재 확인 중입니다. [Pages 주소](https://108chang.github.io/hobby-fashion-trends/)가 열려도 데이터 분석 대시보드의 배포를 뜻하지 않습니다. `docs/index.html`은 데이터와 필터가 없는 소개 페이지입니다.
+Pages의 과거 Actions 활성화 오류는 이번 확인에서 해소했습니다. [배포 실행](https://github.com/108chang/hobby-fashion-trends/actions/runs/40796058029)이 성공했고 [소개 페이지](https://108chang.github.io/hobby-fashion-trends/)의 실제 접속도 확인했습니다. `docs/index.html`은 데이터와 필터가 없는 소개 페이지이며 분석 대시보드는 공개하지 않았습니다. 로컬 복구 대시보드는 5개 화면과 9개 필터의 차트 또는 상품 목록 갱신을 확인했습니다. 로컬 검증을 공개 대시보드의 작동 확인으로 간주하지 않습니다.
